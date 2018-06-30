@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestGetPrice(t *testing.T) {
-	if _, err := getPrice("sgx", "stock_c6l-siaa"); err != nil {
+	if _, err := getPrice("sgx", "stock_c6l-sia"); err != nil {
 		t.Errorf(`Expected price, got "%v"`, err)
 	}
 }
