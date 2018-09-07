@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	selectorKLSE = "td[class='up big16']"
+	selectorKLSE = "table#stockhdr > tbody > tr:last-child > td:first-child"
 	selectorSGX  = "div.stockinfocol1row1 span.value"
 )
 
